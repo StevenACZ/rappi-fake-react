@@ -5,7 +5,7 @@ const ListItemCategory = ({
   selected
 }) => {
   return (
-    <li className={ selected ? 'selected' : '' }>{ name }</li>
+    <li className={ selected ? 'list-item-category selected' : 'list-item-category' }>{ name }</li>
   )
 }
 

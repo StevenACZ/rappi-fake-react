@@ -6,7 +6,7 @@ const ListCategory = () => {
   const { categories } = store;
 
   return (
-    <ul>
+    <ul className="list-category">
       {
         categories.map( category => (
           <ListItemCategory
