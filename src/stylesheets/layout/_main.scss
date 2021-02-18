@@ -1,6 +1,7 @@
 .main {
+  max-width: 1024px;
   display: flex;
   justify-content: center;
-  margin-top: 32px;
+  margin: 32px auto 0;
   gap: 32px;
 }

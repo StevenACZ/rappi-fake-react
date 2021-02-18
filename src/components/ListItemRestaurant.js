@@ -9,7 +9,7 @@ const ListItemRestaurant = ({
   cost,
 }) => {
   return (
-    <div>
+    <div className="list-item-restaurant">
       <img src={ img } alt="Platillo" />
       <div>
         <div>

@@ -3,7 +3,7 @@ import ListCategory from './ListCategory'
 
 const Aside = () => {
   return (
-    <aside>
+    <aside className="aside">
       <h2>Categorías</h2>
       <ListCategory />
     </aside>
