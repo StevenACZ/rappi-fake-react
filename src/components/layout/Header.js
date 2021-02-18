@@ -6,13 +6,14 @@ const Header = () => {
     <header className="header">
       <img src={ DeliverableLogo } alt="Deliverable" />
 
-      <div>
+      <div className="header__searchbar-container">
+        <i className="ri-search-line"></i>
         <input placeholder="Busca por restaurante o tipo de comida"/>
       </div>
-      <i className="ri-search-line"></i>
+
       <div>
-        <button>Ingresar</button>
-        <button>Registrarme</button>
+        <button className="btn btn--green">Ingresar</button>
+        <button className="btn btn--red">Registrarme</button>
       </div>
     </header>
   )
