@@ -19,11 +19,11 @@ const ListItemRestaurant = ({
             <p>{ rate }</p>
           </div>
         </div>
-        {
-          categories.map( (category, index) => (
-            <p key={ index }>{ category }</p>
-          ))
-        }
+        <p>
+          {
+            categories.join(' ')
+          }
+        </p>
         <p><i>Reloj </i>{ time } minutos - Envio S/ { cost }</p>
       </div>
     </div>
