@@ -4,7 +4,7 @@ import ListRestaurant from '../ListRestaurant'
 
 const Main = () => {
   return (
-    <main>
+    <main className="main">
       <Aside />
       <ListRestaurant />
     </main>

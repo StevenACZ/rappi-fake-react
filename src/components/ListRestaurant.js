@@ -6,7 +6,7 @@ const ListRestaurant = () => {
   const { restaurants } = store;
 
   return (
-    <section>
+    <section className="list-restaurant">
       {
         restaurants.map( restaurant => (
           <ListItemRestaurant
