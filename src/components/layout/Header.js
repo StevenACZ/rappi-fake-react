@@ -11,7 +11,7 @@ const Header = () => {
         <input placeholder="Busca por restaurante o tipo de comida"/>
       </div>
 
-      <div>
+      <div className="header__buttons-container">
         <button className="btn btn--green">Ingresar</button>
         <button className="btn btn--red">Registrarme</button>
       </div>
