@@ -24,7 +24,7 @@ const ListItemRestaurant = ({
             <p key={ index }>{ category }</p>
           ))
         }
-        <p><i>Reloj</i>{ time } minutos - Envio S/ { cost }</p>
+        <p><i>Reloj </i>{ time } minutos - Envio S/ { cost }</p>
       </div>
     </div>
   )
