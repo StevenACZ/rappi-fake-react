@@ -4,10 +4,10 @@ import Main from './components/layout/Main'
 
 const RappiApp = () => {
   return (
-    <div>
+    <>
       <Header />
       <Main />
-    </div>
+    </>
   )
 }
 

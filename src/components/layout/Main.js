@@ -1,16 +1,11 @@
 import React from 'react'
+import Aside from '../Aside'
 
 const Main = () => {
   return (
     <main>
-      <asice>
-        <h2>Cateogiras</h2>
-        <ul>
-          <li>Todos</li>
-          <li>Sushi</li>
-        </ul>
-      </asice>
-
+      <Aside />
+      
       <section>
         <div>
           <img alt="Platillo" />
