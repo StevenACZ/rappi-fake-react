@@ -1,8 +1,62 @@
 .list-item-restaurant {
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  padding: 4px;
+  gap: 8px;
 
   & > img {
-    width: 100%;
+    min-width: 128px;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 8px;
   }
+
+  &__details {
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+
+      h3 {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 700;
+      }
+    }
+  
+    &__rate {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+
+      i {
+        color: #F9D82C;
+      }
+    }
+
+    &__categories {
+      font-size: 12px;
+      line-height: 14.4px;
+      margin: 4px 0;
+      color: #7D7D7D;
+    }
+
+    &__extra-info {
+      display: flex;
+      align-content: center;
+      font-size: 12px;
+      line-height: 14.4px;
+      gap: 5px;
+      color: #7D7D7D;
+    }
+  }
+
 }

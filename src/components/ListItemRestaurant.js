@@ -11,20 +11,25 @@ const ListItemRestaurant = ({
   return (
     <div className="list-item-restaurant">
       <img src={ img } alt="Platillo" />
-      <div>
-        <div>
+
+      <div className="list-item-restaurant__details">
+        <div className="list-item-restaurant__details__header">
           <h3>{ name }</h3>
-          <div>
-            <i>Star</i>
+          <div className="list-item-restaurant__details__rate">
+            <i class="ri-star-fill"></i>
             <p>{ rate }</p>
           </div>
         </div>
-        <p>
+
+        <p className="list-item-restaurant__details__categories">
           {
             categories.join(' ')
           }
         </p>
-        <p><i>Reloj </i>{ time } minutos - Envio S/ { cost }</p>
+
+        <p className="list-item-restaurant__details__extra-info">
+          <i class="ri-time-line"></i>{ time } minutos - Envio S/ { cost }
+        </p>
       </div>
     </div>
   )
